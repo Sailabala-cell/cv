@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>My phone number : 9766976237</p>
+    <p>My email id : sailabala.sioren@gmail.com</p>
+  <form action="mailto:info.soren67@gmail.com" method="post" enctype="text/plain">
+    <label>Name: </label>
+    <input type="text" name="Your Name" ><br>
+    <label>Email: </label>
+    <input type="email" name="Your Email" ><br>
+    <label>Password: </label>
+    <input type="password" name="Your Password"><br>
+    <label>DOB: </label>
+    <input type="date" ><br>
+    <label>Price: </label>
+   <input type="range" min="10$" max="5000$" step="any"><br>
+    
+        <fieldset>
+          <legend>Choose your interests</legend>
+          <div>
+            <input type="checkbox" id="coding" name="interest" value="coding" />
+            <label for="coding">Coding</label>
+          </div>
+          <div>
+            <input type="checkbox" id="music" name="interest" value="music" />
+            <label for="music">Music</label>
+          </div>
+          <div>
+            <input type="checkbox" id="art" name="interest" value="art" />
+            <label for="art">Art</label>
+          </div>
+          <div>
+            <input type="checkbox" id="sports" name="interest" value="sports" />
+            <label for="sports">Sports</label>
+          </div>
+          <div>
+            <input type="checkbox" id="cooking" name="interest" value="cooking" />
+            <label for="cooking">Cooking</label>
+          </div>
+          <div>
+            <input type="checkbox" id="other" name="interest" value="other" />
+            <label for="other">Other</label>
+            <input type="text" id="otherValue" name="other" />
+          </div>
+          <div>
+           
+          </div>
+        </fieldset>
+    
+      
+    <fieldset>
+        <legend>Do you agree to the terms?</legend>
+        <label><input type="radio" name="radio" value="yes" /> Yes</label>
+        <label><input type="radio" name="radio" value="no" /> No</label>
+      </fieldset>
+      
+      <label for="meeting-time">Choose a time for your appointment:</label>
+      <input type="datetime-local" id="meeting-time"><br>
+      <label for="avatar">Choose a profile picture:</label>
+      <input type="file"><br>
+      <label for="url">Enter LinkedIn https:// URL:</label>
+      <input type="url"><br>
+      <label>Ypur Message</label>
+      <textarea rows="10" cols="30"></textarea><br>
+      <input type="submit" value="Submit"><br>
+      <input type="reset" value="Reset">
+    </form>
+
+
+   
+</body>
+</html>
